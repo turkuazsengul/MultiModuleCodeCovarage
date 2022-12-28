@@ -18,7 +18,7 @@
     <modules>
         <module>Module1</module>
         <module>module3</module>
-        <module>coverege-module</module>
+        <module>coverage-module</module>
     </modules>
 
     <dependencies>
@@ -63,24 +63,6 @@
                 <version>3.0.0-M7</version>
             </plugin>
 
-<!--            <plugin>-->
-<!--                <groupId>org.jacoco</groupId>-->
-<!--                <artifactId>jacoco-maven-plugin</artifactId>-->
-<!--                <version>0.8.8</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>agent-for-ut</id>-->
-<!--                        <goals>-->
-<!--                            <goal>prepare-agent</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <append>true</append>-->
-<!--                            <destFile>${project.basedir}/../target/jacoco.xml</destFile>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
-
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
@@ -94,16 +76,9 @@
                     </execution>
                     <execution>
                         <id>jacoco-report</id>
-                        <phase>verify</phase>
+                        <phase>test</phase>
                         <goals>
                             <goal>report</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>jacoco-aggregate</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>report-aggregate</goal>
                         </goals>
                     </execution>
                 </executions>
