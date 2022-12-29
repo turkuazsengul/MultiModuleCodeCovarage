@@ -12,10 +12,10 @@
 
     <packaging>jar</packaging>
     <groupId>com.example</groupId>
-    <artifactId>Module1</artifactId>
+    <artifactId>Module2</artifactId>
 
-    <name>Module1</name>
-    <description>Module1</description>
+    <name>Module2</name>
+    <description>Module2</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

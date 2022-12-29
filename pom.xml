@@ -17,7 +17,7 @@
 
     <modules>
         <module>Module1</module>
-        <module>module3</module>
+        <module>module2</module>
         <module>coverage-module</module>
     </modules>
 

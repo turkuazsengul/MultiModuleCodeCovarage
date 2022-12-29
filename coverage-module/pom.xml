@@ -28,7 +28,7 @@
         </dependency>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>Module3</artifactId>
+            <artifactId>Module2</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
